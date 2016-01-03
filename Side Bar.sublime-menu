@@ -1,0 +1,18 @@
+[
+	{ "caption": "-" },
+	{ 
+		"caption": "Laravel 5",
+		"children": [
+			{ "caption": "make:controller", "command": "generate_controller" },
+			{ "caption": "make:model", "command": "generate_model" },
+			{ "caption": "make:migration", "command": "generate_migration" },
+			{ "caption": "make:seeder", "command": "generate_seeder" },
+			{ "caption": "make:request", "command:": "generate_request"},
+			{ "caption": "-"},
+			{ "caption": "Run Migrate", "command": "migrate" },
+			{ "caption": "migrate:rollback", "command": "migrate_rollback" },
+			{ "caption": "-" },
+			{ "caption": "db:seed", "command": "seed_database" }	
+		]
+	}
+]
